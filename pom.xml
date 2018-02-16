@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <!-- ==================================================================== -->
+  <!-- Build requires Java SE 8 or later -->
+  <!-- Releases require Java SE 9 or later -->
+  <!-- ==================================================================== -->
+  <parent>
+    <groupId>org.joda</groupId>
+    <artifactId>joda-parent</artifactId>
+    <version>1.0.3</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>joda-beans-integrate</artifactId>
+  <packaging>pom</packaging>
+  <name>Integration for Joda-Beans</name>
+  <version>2.0.3-SNAPSHOT</version>
+  <description>Integration for Joda-Beans</description>
+  <url>http://www.joda.org/${joda.artifactId}/</url>
+
+  <!-- ==================================================================== -->
+  <inceptionYear>2007</inceptionYear>
+  <scm>
+    <connection>scm:git:https://github.com/JodaOrg/${joda.artifactId}.git</connection>
+    <developerConnection>scm:git:https://github.com/JodaOrg/${joda.artifactId}.git</developerConnection>
+    <url>https://github.com/JodaOrg/${joda.artifactId}</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <!-- ==================================================================== -->
+  <developers>
+    <developer>
+      <id>jodastephen</id>
+      <name>Stephen Colebourne</name>
+      <roles>
+        <role>Project Lead</role>
+      </roles>
+      <timezone>0</timezone>
+      <url>https://github.com/jodastephen</url>
+    </developer>
+  </developers>
+
+  <!-- ==================================================================== -->
+  <modules>
+    <module>kryo</module>
+  </modules>
+
+  <!-- ==================================================================== -->
+  <properties>
+    <!-- Parent pom.xml control -->
+    <joda.artifactId>joda-beans-integrate</joda.artifactId>
+    <maven.install.skip>true</maven.install.skip>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
+</project>
