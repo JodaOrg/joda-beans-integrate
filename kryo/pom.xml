@@ -94,5 +94,6 @@
     <joda.osgi.packages>org.joda.beans.integrate.kryo.*</joda.osgi.packages>
     <joda.module.name>org.joda.beans.integrate.kryo</joda.module.name>
     <joda.artifactId>joda-beans-integrate-kryo</joda.artifactId>
+    <joda.nexus.auto.release>false</joda.nexus.auto.release>
   </properties>
 </project>

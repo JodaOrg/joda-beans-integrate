@@ -82,5 +82,6 @@
     <joda.osgi.packages>org.joda.beans.integrate.freemarker.*</joda.osgi.packages>
     <joda.module.name>org.joda.beans.integrate.freemarker</joda.module.name>
     <joda.artifactId>joda-beans-integrate-freemarker</joda.artifactId>
+    <joda.nexus.auto.release>false</joda.nexus.auto.release>
   </properties>
 </project>
