@@ -11,11 +11,11 @@
     <version>1.0.3</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>joda-beans-integrate-kryo</artifactId>
+  <artifactId>joda-beans-integrate-mongo</artifactId>
   <packaging>jar</packaging>
-  <name>Joda-Beans Kryo integration</name>
+  <name>Joda-Beans Mongo integration</name>
   <version>2.1-SNAPSHOT</version>
-  <description>Joda-Beans - Kryo integration</description>
+  <description>Joda-Beans - Mongo integration</description>
   <url>http://www.joda.org/${joda.artifactId}/</url>
 
   <!-- ==================================================================== -->
@@ -64,9 +64,9 @@
       <version>2.0.2</version>
     </dependency>
     <dependency>
-      <groupId>com.esotericsoftware</groupId>
-      <artifactId>kryo</artifactId>
-      <version>4.0.1</version>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongo-java-driver</artifactId>
+      <version>1.4</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -74,25 +74,13 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>24.0-jre</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.joda</groupId>
-      <artifactId>joda-collect</artifactId>
-      <version>1.0</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <!-- ==================================================================== -->
   <properties>
     <!-- Parent pom.xml control -->
-    <joda.osgi.packages>org.joda.beans.integrate.kryo.*</joda.osgi.packages>
-    <joda.module.name>org.joda.beans.integrate.kryo</joda.module.name>
-    <joda.artifactId>joda-beans-integrate-kryo</joda.artifactId>
+    <joda.osgi.packages>org.joda.beans.integrate.mongo.*</joda.osgi.packages>
+    <joda.module.name>org.joda.beans.integrate.mongo</joda.module.name>
+    <joda.artifactId>joda-beans-integrate-mongo</joda.artifactId>
   </properties>
 </project>

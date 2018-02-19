@@ -13,9 +13,9 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>joda-beans-integrate</artifactId>
   <packaging>pom</packaging>
-  <name>Integration for Joda-Beans</name>
+  <name>Joda-Beans integration</name>
   <version>2.0.3-SNAPSHOT</version>
-  <description>Integration for Joda-Beans</description>
+  <description>Joda-Beans - Integration projects</description>
   <url>http://www.joda.org/${joda.artifactId}/</url>
 
   <!-- ==================================================================== -->
@@ -42,7 +42,9 @@
 
   <!-- ==================================================================== -->
   <modules>
+    <module>freemarker</module>
     <module>kryo</module>
+    <module>mongo</module>
   </modules>
 
   <!-- ==================================================================== -->
