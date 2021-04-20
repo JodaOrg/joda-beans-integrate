@@ -23,7 +23,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.GITHUB_PERSONAL_TOKEN }}
+        token: ${{ secrets.PERSONAL_TOKEN_GH }}
     - name: Maven cache
       uses: actions/cache@v1
       with:
